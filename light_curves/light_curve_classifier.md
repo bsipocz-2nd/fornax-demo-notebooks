@@ -83,10 +83,11 @@ import sys
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 import pandas as pd
-from astropy.table import Table
 from google_drive_downloader import GoogleDriveDownloader as gdd
 from tqdm import tqdm
 import json
+
+from astropy.table import Table
 
 from sklearn.metrics import ConfusionMatrixDisplay, accuracy_score, confusion_matrix
 from sklearn.model_selection import train_test_split
